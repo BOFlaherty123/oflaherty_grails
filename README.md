@@ -6,12 +6,13 @@ A simple application for uploading an original .xml file from William Hill, pars
 
 Parsed XML Format
 
-* <odds>
-*  <league @name>
-*    <match @name @date>
-*      <team @name @odds>
-*      <team @name @odds>
-*      <team @name @odds>
-*    </match
-*  </league>
-* </odds>
+odds
+  league @name
+     match @name @date
+        team @name @odds
+        team @name @odds
+        team @name @odds
+      match
+   league
+odds
+    
